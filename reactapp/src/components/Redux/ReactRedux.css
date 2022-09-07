@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+.main_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main_div .box{
+    display:flex;
+    justify-content:center;
+    justify-content:center;
+    background:#ddd;
+    padding:15px;
+
+}
+
+.main_div .box .quantity_minus{
+    background:red;
+    padding:10px;
+    font-size:50px;
+
+}
+
+.main_div .box .quantity_plus{
+    background:red;
+    padding:10px;
+    font-size:50px;
+
+}

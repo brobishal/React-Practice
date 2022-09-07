@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+.container{
+    width:100vw;
+    height:100vh;
+    background:#ddd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container .main{
+    /* background:red; */
+    width:200px;
+    height:90px;
+    padding:20px 70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.container .main h1{ 
+
+    
+}
+.container .main button{
+    width:250px;
+    height:90px;
+    padding:20px 60px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    background:purple; 
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+

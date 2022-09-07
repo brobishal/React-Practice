@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.main_category{
+    margin-top:200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.category{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:200px;
+}
+
+.second_div{
+    display:grid;
+    grid-gap:20px;
+}
+
+
+.card_div{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:100px;
+}

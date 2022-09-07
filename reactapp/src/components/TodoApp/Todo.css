@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+
+.main-div{
+    min-height:100vh;
+    background:#060822;
+    display:flex;
+    justify-content:center;
+
+}
+
+.fas{
+    color:red;
+    font-size:20px;
+    cursor:pointer;
+
+}
+
+.main-div .child-div figure img{
+    width:100px;
+    height:100px;
+
+}
+
+.child-div .addItems{
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 5px;
+    
+}
+
+.addItems input[type="text"]{
+    border:none;
+    outline:none;
+    padding:10px;
+    
+}
+
+.child-div .addItems input[type="text"]{
+    width:100%;
+}
+
+
+.child-div .showItems .eachItem{
+    background-color: #ddd;
+    border:1px solid #000;
+    margin:10px 0px;
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+}

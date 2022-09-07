@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+    background-color:gray;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main .mid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+}
+
+.main .mid button{
+    padding:10px 20px;
+    border-radius:4px;
+    border:none;
+    background:palevioletred;
+    color:#fff;
+    font-weight:bold;
+    font-size:20px;
+    text-transform:uppercase;
+    
+
+}

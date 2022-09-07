@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.main-container{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(72, 121, 142);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.main-form{
+    
+}

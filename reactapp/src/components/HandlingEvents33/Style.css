@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+.container{
+    width:100w;
+    height:100vh;
+    background:rgb(59, 59, 197);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.main button{
+    padding:30px 50px;
+    background:none;
+    border:3px solid #fff;
+    border-radius:8px;
+    color:#fff;
+    font-size:20px;
+    text-transform:uppercase;
+    cursor:pointer;
+ 
+}
+
